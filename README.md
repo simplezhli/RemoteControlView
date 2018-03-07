@@ -14,7 +14,7 @@ RemoteControlView是模仿乐视遥控App添加万能遥控器的交互效果。
 
 ## 实现过程
 
-具体参考这篇博客：[实现一款万能遥控器](http://blog.csdn.net/qq_17766199)
+具体参考这篇博客：[实现一款万能遥控器](http://blog.csdn.net/qq_17766199/article/details/79466506)
 
 ## License
 
