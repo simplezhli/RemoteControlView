@@ -1,0 +1,15 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <com.weilu.customview.widget.DraggableButton
+        android:id="@+id/bt"
+        android:padding="12dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+
+</LinearLayout>

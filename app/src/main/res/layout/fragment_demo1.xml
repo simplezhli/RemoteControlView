@@ -1,0 +1,95 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+    
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        
+        <com.weilu.customview.widget.DraggableButton
+            android:id="@+id/iv_offered_cursor"
+            android:src="@mipmap/offered_cursor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_offered_channel"
+            android:src="@mipmap/offered_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_offered_vol"
+            android:src="@mipmap/offered_vol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+
+            <com.weilu.customview.widget.DraggableButton
+                android:padding="10dp"
+                android:id="@+id/iv_offered_random"
+                android:src="@mipmap/offered_random"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+
+            <com.weilu.customview.widget.DraggableButton
+                android:padding="10dp"
+                android:id="@+id/iv_offered_playloop"
+                android:src="@mipmap/offered_playloop"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+</LinearLayout>
