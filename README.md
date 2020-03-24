@@ -2,6 +2,8 @@
 
 RemoteControlView是模仿乐视遥控App添加万能遥控器的交互效果。
 
+Flutter实现版本：[Github地址](https://github.com/simplezhli/flutter_remote_control)
+
 ## Preview
 
 原效果
